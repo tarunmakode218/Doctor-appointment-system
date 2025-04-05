@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get("https://doctor-appointment-system-7zeg.onrender.com", {
+      .get("https://doctor-appointment-system-6.onrender.com/api/v1/user/patient/logout", {
         withCredentials: true,
       })
       .then((res) => {
