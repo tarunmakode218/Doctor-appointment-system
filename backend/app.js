@@ -15,7 +15,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: [https://doctor-appointment-system-1-lj8f.onrender.com, https://doctor-appointment-system-3-pxud.onrender.com],
+    origin: [FRONTEND_URL_ON,FRONTEND_URL_TWO],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
