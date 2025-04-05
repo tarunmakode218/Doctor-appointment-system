@@ -47,7 +47,7 @@ const AppointmentForm = () => {
     try {
       const hasVisitedBool = Boolean(hasVisited);
       const { data } = await axios.post(
-        "https://doctor-appointment-system-7zeg.onrender.com",
+        "https://doctor-appointment-system-6.onrender.com/api/v1/user/doctors",
         {
           firstName,
           lastName,
