@@ -20,7 +20,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://doctor-appointment-system-7zeg.onrender.com",
+          "https://doctor-appointment-system-4-9u4g.onrender.com",
           {
             withCredentials: true,
           }
