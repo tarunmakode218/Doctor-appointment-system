@@ -11,7 +11,7 @@ const Messages = () => {
     const fetchMessages = async () => {
       try {
         const { data } = await axios.get(
-          "https://doctor-appointment-system-4-9u4g.onrender.com",
+          "https://doctor-appointment-system-6.onrender.com/api/v1/message/getall",
           { withCredentials: true }
         );
         setMessages(data.messages);
