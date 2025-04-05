@@ -23,7 +23,7 @@ const AddNewAdmin = () => {
     try {
       await axios
         .post(
-          "https://doctor-appointment-system-7zeg.onrender.com",
+          "https://doctor-appointment-system-4-9u4g.onrender.com",
           { firstName, lastName, email, phone, nic, dob, gender, password },
           {
             withCredentials: true,
