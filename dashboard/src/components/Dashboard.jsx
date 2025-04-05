@@ -13,7 +13,7 @@ const Dashboard = () => {
     const fetchAppointments = async () => {
       try {
         const { data } = await axios.get(
-          "https://doctor-appointment-system-7zeg.onrender.com",
+          "https://doctor-appointment-system-4-9u4g.onrender.com",
           { withCredentials: true }
         );
         setAppointments(data.appointments);
