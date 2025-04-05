@@ -18,7 +18,7 @@ const Sidebar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get("https://doctor-appointment-system-7zeg.onrender.com", {
+      .get("https://doctor-appointment-system-4-9u4g.onrender.com", {
         withCredentials: true,
       })
       .then((res) => {
