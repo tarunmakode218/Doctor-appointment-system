@@ -18,7 +18,7 @@ const Login = () => {
     try {
       await axios
         .post(
-          "https://doctor-appointment-system-7zeg.onrender.com",
+          "https://doctor-appointment-system-4-9u4g.onrender.com",
           { email, password, confirmPassword, role: "Patient" },
           {
             withCredentials: true,
